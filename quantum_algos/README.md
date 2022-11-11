@@ -1,4 +1,4 @@
-# README for Homework 12
+# README
 
 This file specifies how to input the values to the various algorithms and how to interpret the results.
 
