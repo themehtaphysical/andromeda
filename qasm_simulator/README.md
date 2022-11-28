@@ -29,12 +29,14 @@ The same output that is stored in the report file is displayed on the terminal a
 
 The initial state of the qasm simulator is given by:
 > |0000000000000000>
+
 for the case of the benchmark suite. The notation for qubit, that is followed across this simulator is:
 > **|q0 q1 q2 .. .. .. qn >**
 
 The output state is also represented as linear combination of the kets of 2^n hilbert space, with complex amplitudes. 
 So for example, an output state given as:
 > (0.737) |1100000000000000> + (0.737j)|0000001000000000>
-means that the final output state is a linear combination of two state given by the kets represented above, each state having its own complex amplitude. 
+
+this means that the final output state is a linear combination of two state given by the kets represented above, each state having its own complex amplitude. 
 
 
